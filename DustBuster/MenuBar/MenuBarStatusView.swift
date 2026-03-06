@@ -11,7 +11,7 @@ struct MenuBarStatusView: View {
             HStack {
                 Image(systemName: "sparkles")
                     .foregroundStyle(.yellow)
-                Text("CleanMyMachine")
+                Text("DustBuster")
                     .font(.headline)
                 Spacer()
             }
@@ -55,7 +55,7 @@ struct MenuBarStatusView: View {
                 Button {
                     NSApp.terminate(nil)
                 } label: {
-                    Label("Quit CleanMyMachine", systemImage: "power")
+                    Label("Quit DustBuster", systemImage: "power")
                         .frame(maxWidth: .infinity)
                 }
                 .buttonStyle(.bordered)
@@ -139,7 +139,7 @@ struct MenuBarStatusView: View {
 
     private func openMainWindow() {
         NSApp.activate(ignoringOtherApps: true)
-        if NSApp.windows.first(where: { $0.title == "CleanMyMachine" }) == nil {
+        if NSApp.windows.first(where: { $0.title == "DustBuster" }) == nil {
             // Window was closed — open a new one
             for window in NSApp.windows {
                 window.makeKeyAndOrderFront(nil)

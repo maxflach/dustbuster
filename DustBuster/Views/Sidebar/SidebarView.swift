@@ -25,7 +25,7 @@ struct SidebarView: View {
         }
         .listStyle(.sidebar)
         .frame(minWidth: 180)
-        .navigationTitle("CleanMyMachine")
+        .navigationTitle("DustBuster")
     }
 
     private func badgeText(for item: SidebarItem) -> String? {

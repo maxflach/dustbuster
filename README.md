@@ -1,4 +1,4 @@
-# CleanMyMachine
+# DustBuster
 
 A native macOS 14+ app inspired by CleanMyMac, built with Swift/SwiftUI.
 
@@ -22,11 +22,10 @@ A native macOS 14+ app inspired by CleanMyMac, built with Swift/SwiftUI.
 brew install xcodegen
 
 # Generate Xcode project
-cd /path/to/cleanmymachine
 xcodegen generate
 
 # Open in Xcode
-open CleanMyMachine.xcodeproj
+open DustBuster.xcodeproj
 ```
 
 Then build and run with ⌘R.
@@ -34,30 +33,30 @@ Then build and run with ⌘R.
 ## Architecture
 
 ```
-CleanMyMachine/
-├── CleanMyMachineApp.swift     # @main, MenuBarExtra scene
-├── AppDelegate.swift           # Keep-alive after window close
+DustBuster/
+├── DustBusterApp.swift          # @main, MenuBarExtra scene
+├── AppDelegate.swift            # Keep-alive after window close
 ├── Models/
-│   ├── FileSystemNode.swift    # Tree node with size rollup
-│   ├── CleanupCategory.swift   # Enum of cleanup targets + paths
-│   └── CleanupItem.swift       # Individual item + scan result
+│   ├── FileSystemNode.swift     # Tree node with size rollup
+│   ├── CleanupCategory.swift    # Enum of cleanup targets + paths
+│   └── CleanupItem.swift        # Individual item + scan result
 ├── Services/
-│   ├── DiskScannerService.swift  # Async recursive scanner
-│   ├── CleanupService.swift      # Size calc + deletion + Docker CLI
+│   ├── DiskScannerService.swift   # Async recursive scanner
+│   ├── CleanupService.swift       # Size calc + deletion + Docker CLI
 │   └── LaunchAtLoginService.swift # SMAppService wrapper
 ├── ViewModels/
-│   ├── CleanupViewModel.swift    # Scan/clean state machine
-│   └── SpaceLensViewModel.swift  # Space Lens state + navigation
+│   ├── CleanupViewModel.swift     # Scan/clean state machine
+│   └── SpaceLensViewModel.swift   # Space Lens state + navigation
 └── Views/
-    ├── ContentView.swift         # NavigationSplitView
+    ├── ContentView.swift          # NavigationSplitView
     ├── Sidebar/SidebarView.swift
     ├── Cleanup/
     │   ├── CleanupView.swift
     │   └── CleanupCategoryRow.swift
     ├── SpaceLens/
     │   ├── SpaceLensView.swift
-    │   ├── TreemapView.swift     # Squarified treemap on Canvas
-    │   └── FileBrowserView.swift # Table-based browser
+    │   ├── TreemapView.swift      # Squarified treemap on Canvas
+    │   └── FileBrowserView.swift  # Table-based browser
     ├── MenuBar/MenuBarStatusView.swift
     └── SettingsView.swift
 ```

@@ -1,4 +1,4 @@
-name: CleanMyMachine
+name: DustBuster
 
 options:
   bundleIdPrefix: com.max
@@ -7,19 +7,19 @@ options:
   xcodeVersion: "15.0"
 
 targets:
-  CleanMyMachine:
+  DustBuster:
     type: application
     platform: macOS
     deploymentTarget: "14.0"
     sources:
-      - CleanMyMachine
+      - DustBuster
     settings:
       base:
-        PRODUCT_BUNDLE_IDENTIFIER: com.max.cleanmymachine
+        PRODUCT_BUNDLE_IDENTIFIER: com.max.dustbuster
         SWIFT_VERSION: "5.9"
         MACOSX_DEPLOYMENT_TARGET: "14.0"
-        CODE_SIGN_ENTITLEMENTS: CleanMyMachine/CleanMyMachine.entitlements
-        INFOPLIST_FILE: CleanMyMachine/Info.plist
+        CODE_SIGN_ENTITLEMENTS: DustBuster/DustBuster.entitlements
+        INFOPLIST_FILE: DustBuster/Info.plist
         ENABLE_APP_SANDBOX: NO
         CODE_SIGN_STYLE: Automatic
         DEVELOPMENT_TEAM: ""

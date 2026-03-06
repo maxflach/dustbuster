@@ -39,7 +39,7 @@ struct SettingsView: View {
                 VStack(alignment: .leading, spacing: 8) {
                     Text("Full Disk Access")
                         .font(.headline)
-                    Text("CleanMyMachine needs Full Disk Access to clean system caches outside your home folder. Without it, only ~/Library paths are accessible.")
+                    Text("DustBuster needs Full Disk Access to clean system caches outside your home folder. Without it, only ~/Library paths are accessible.")
                         .font(.caption)
                         .foregroundStyle(.secondary)
 

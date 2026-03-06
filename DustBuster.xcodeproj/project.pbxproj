@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07A778AF40ADB119E5A29994 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423BC0E9F6B5D845639E9659 /* ContentView.swift */; };
+		0BED71C97F405A7A16DA19B3 /* CleanupCategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B086D095549C8EB0C44DF7BD /* CleanupCategoryRow.swift */; };
+		10F9C0AD35EDC7DD9A70955B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E08EE03178F2E9F320C1CA5B /* Assets.xcassets */; };
+		193AD814DF1A56BF66A970B7 /* MenuBarStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8302094461854B2ABB44AD9C /* MenuBarStatusView.swift */; };
+		24D7784B5443A9929F638934 /* DustBusterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB6CE74E580590C902CEB93 /* DustBusterApp.swift */; };
+		3A4175818582E426BC2DA5C5 /* FileSystemNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA13B3C6874182DCBF1603B3 /* FileSystemNode.swift */; };
+		69E480F8B5F1D4929EDA6F6C /* CleanupCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BADC2479FDC89B7CCEB2DF5 /* CleanupCategory.swift */; };
+		754BAD0DB67E60069EC449F4 /* SpaceLensView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1225C262B1E2B3F91F0E296C /* SpaceLensView.swift */; };
+		7773CA30FB184417D04B21A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88982FE1CC33CB915B8C142D /* AppDelegate.swift */; };
+		84C1E2FC78A5D3FD5651205E /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BB7C2A04C1F19E5B2F1B04 /* SidebarView.swift */; };
+		8F249B17AB846919D67A8241 /* LaunchAtLoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 650F703591F29DDCD88777B2 /* LaunchAtLoginService.swift */; };
+		8F2ADE07E99746D3A38521A6 /* SpaceLensViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69E6D4E276B54688B9F679E /* SpaceLensViewModel.swift */; };
+		9715602D350E330FDC4B74F6 /* FileRemoveList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3B1BA2CCF48C9C55240297 /* FileRemoveList.swift */; };
+		98D44A584C605235D54A3FA2 /* TreemapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334186A7E9232E09D6CCAE26 /* TreemapView.swift */; };
+		9B07851DFB6398A64E52F992 /* CleanupViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6BC3532EB97405F007D3D97 /* CleanupViewModel.swift */; };
+		9DF9935A8FAF73FF80AE6C9C /* FileBrowserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74FCAB03EA22F2F9F7C9CAB /* FileBrowserView.swift */; };
+		AED9C6E6AF665B320D739AF9 /* DiskScannerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EB59162115F483618E455E /* DiskScannerService.swift */; };
+		B462EABEF886BC003667062D /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D46B385625917DCA55FE75 /* SettingsView.swift */; };
+		BEEA3EAEAD8C34F6B63DD23A /* DockerDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D65853287EE523719C68A0F /* DockerDetailView.swift */; };
+		C08CECF4615531C02FA8FD0F /* BubbleChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025F090131E461F0C6A7FEF2 /* BubbleChartView.swift */; };
+		C391085EA8A779EA7A4BC78D /* CleanupService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7510208D01222073D734053 /* CleanupService.swift */; };
+		D0449263F44A950E19F9322C /* DockerResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B486919058AC8C90C3D687 /* DockerResource.swift */; };
+		F1E24E0C887ED9205398B3D4 /* CleanupItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88C2C3B028BA7305A38FA78 /* CleanupItem.swift */; };
+		FDE73B0601713B094B215C5B /* CleanupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E68A63800AAC0BD72BE0682C /* CleanupView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		00B486919058AC8C90C3D687 /* DockerResource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DockerResource.swift; sourceTree = "<group>"; };
+		025F090131E461F0C6A7FEF2 /* BubbleChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleChartView.swift; sourceTree = "<group>"; };
+		1225C262B1E2B3F91F0E296C /* SpaceLensView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceLensView.swift; sourceTree = "<group>"; };
+		2BADC2479FDC89B7CCEB2DF5 /* CleanupCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanupCategory.swift; sourceTree = "<group>"; };
+		334186A7E9232E09D6CCAE26 /* TreemapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreemapView.swift; sourceTree = "<group>"; };
+		423BC0E9F6B5D845639E9659 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4601F76057D16E2B402EE59B /* DustBuster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DustBuster.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D65853287EE523719C68A0F /* DockerDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DockerDetailView.swift; sourceTree = "<group>"; };
+		650F703591F29DDCD88777B2 /* LaunchAtLoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchAtLoginService.swift; sourceTree = "<group>"; };
+		6E3B8FFDF4229F11B034D220 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		7CEA9521D8DF69C4A5DBFC21 /* DustBuster.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DustBuster.entitlements; sourceTree = "<group>"; };
+		8302094461854B2ABB44AD9C /* MenuBarStatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarStatusView.swift; sourceTree = "<group>"; };
+		88982FE1CC33CB915B8C142D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A74FCAB03EA22F2F9F7C9CAB /* FileBrowserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileBrowserView.swift; sourceTree = "<group>"; };
+		B086D095549C8EB0C44DF7BD /* CleanupCategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanupCategoryRow.swift; sourceTree = "<group>"; };
+		B0BB7C2A04C1F19E5B2F1B04 /* SidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
+		B88C2C3B028BA7305A38FA78 /* CleanupItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanupItem.swift; sourceTree = "<group>"; };
+		BA13B3C6874182DCBF1603B3 /* FileSystemNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileSystemNode.swift; sourceTree = "<group>"; };
+		C2D46B385625917DCA55FE75 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		C69E6D4E276B54688B9F679E /* SpaceLensViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceLensViewModel.swift; sourceTree = "<group>"; };
+		C7510208D01222073D734053 /* CleanupService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanupService.swift; sourceTree = "<group>"; };
+		E08EE03178F2E9F320C1CA5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E68A63800AAC0BD72BE0682C /* CleanupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanupView.swift; sourceTree = "<group>"; };
+		E6BC3532EB97405F007D3D97 /* CleanupViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanupViewModel.swift; sourceTree = "<group>"; };
+		E7EB59162115F483618E455E /* DiskScannerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiskScannerService.swift; sourceTree = "<group>"; };
+		EEB6CE74E580590C902CEB93 /* DustBusterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DustBusterApp.swift; sourceTree = "<group>"; };
+		FE3B1BA2CCF48C9C55240297 /* FileRemoveList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileRemoveList.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0275591CD3EB0BDCA777CCBA /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				E6BC3532EB97405F007D3D97 /* CleanupViewModel.swift */,
+				C69E6D4E276B54688B9F679E /* SpaceLensViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		3205638516EFB9C152C60D0E /* Sidebar */ = {
+			isa = PBXGroup;
+			children = (
+				B0BB7C2A04C1F19E5B2F1B04 /* SidebarView.swift */,
+			);
+			path = Sidebar;
+			sourceTree = "<group>";
+		};
+		4D1C5E0312C65A6547B3639D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2BADC2479FDC89B7CCEB2DF5 /* CleanupCategory.swift */,
+				B88C2C3B028BA7305A38FA78 /* CleanupItem.swift */,
+				00B486919058AC8C90C3D687 /* DockerResource.swift */,
+				BA13B3C6874182DCBF1603B3 /* FileSystemNode.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4FDCB69EA32E61A99753221E /* Cleanup */ = {
+			isa = PBXGroup;
+			children = (
+				B086D095549C8EB0C44DF7BD /* CleanupCategoryRow.swift */,
+				E68A63800AAC0BD72BE0682C /* CleanupView.swift */,
+				4D65853287EE523719C68A0F /* DockerDetailView.swift */,
+			);
+			path = Cleanup;
+			sourceTree = "<group>";
+		};
+		7DA3D59254F8F0547431CE45 /* SpaceLens */ = {
+			isa = PBXGroup;
+			children = (
+				025F090131E461F0C6A7FEF2 /* BubbleChartView.swift */,
+				A74FCAB03EA22F2F9F7C9CAB /* FileBrowserView.swift */,
+				FE3B1BA2CCF48C9C55240297 /* FileRemoveList.swift */,
+				1225C262B1E2B3F91F0E296C /* SpaceLensView.swift */,
+				334186A7E9232E09D6CCAE26 /* TreemapView.swift */,
+			);
+			path = SpaceLens;
+			sourceTree = "<group>";
+		};
+		7EBB67BE06BBBD9B1C2D0A5D = {
+			isa = PBXGroup;
+			children = (
+				92565130245D474BA6D92E64 /* DustBuster */,
+				CDC482F8802460195539A988 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		83750D568E5F0BCFAA51959A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				423BC0E9F6B5D845639E9659 /* ContentView.swift */,
+				C2D46B385625917DCA55FE75 /* SettingsView.swift */,
+				4FDCB69EA32E61A99753221E /* Cleanup */,
+				3205638516EFB9C152C60D0E /* Sidebar */,
+				7DA3D59254F8F0547431CE45 /* SpaceLens */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		92565130245D474BA6D92E64 /* DustBuster */ = {
+			isa = PBXGroup;
+			children = (
+				88982FE1CC33CB915B8C142D /* AppDelegate.swift */,
+				E08EE03178F2E9F320C1CA5B /* Assets.xcassets */,
+				7CEA9521D8DF69C4A5DBFC21 /* DustBuster.entitlements */,
+				EEB6CE74E580590C902CEB93 /* DustBusterApp.swift */,
+				6E3B8FFDF4229F11B034D220 /* Info.plist */,
+				EDAA1BC27342D6C654C5321D /* MenuBar */,
+				4D1C5E0312C65A6547B3639D /* Models */,
+				FFBC05C26BE49631FC7491C5 /* Services */,
+				0275591CD3EB0BDCA777CCBA /* ViewModels */,
+				83750D568E5F0BCFAA51959A /* Views */,
+			);
+			path = DustBuster;
+			sourceTree = "<group>";
+		};
+		CDC482F8802460195539A988 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4601F76057D16E2B402EE59B /* DustBuster.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDAA1BC27342D6C654C5321D /* MenuBar */ = {
+			isa = PBXGroup;
+			children = (
+				8302094461854B2ABB44AD9C /* MenuBarStatusView.swift */,
+			);
+			path = MenuBar;
+			sourceTree = "<group>";
+		};
+		FFBC05C26BE49631FC7491C5 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				C7510208D01222073D734053 /* CleanupService.swift */,
+				E7EB59162115F483618E455E /* DiskScannerService.swift */,
+				650F703591F29DDCD88777B2 /* LaunchAtLoginService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2F3172D2680C25414BA2F750 /* DustBuster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83DC3D61AF759D11E2B19626 /* Build configuration list for PBXNativeTarget "DustBuster" */;
+			buildPhases = (
+				FE3134F6937621176EBF93DF /* Sources */,
+				FBFF233185D1AFE9696315D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DustBuster;
+			packageProductDependencies = (
+			);
+			productName = DustBuster;
+			productReference = 4601F76057D16E2B402EE59B /* DustBuster.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9534BF2F82602EEC9609F43C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					2F3172D2680C25414BA2F750 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9727F2A40F1DCCF111520F7C /* Build configuration list for PBXProject "DustBuster" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 7EBB67BE06BBBD9B1C2D0A5D;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2F3172D2680C25414BA2F750 /* DustBuster */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FBFF233185D1AFE9696315D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10F9C0AD35EDC7DD9A70955B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE3134F6937621176EBF93DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7773CA30FB184417D04B21A8 /* AppDelegate.swift in Sources */,
+				C08CECF4615531C02FA8FD0F /* BubbleChartView.swift in Sources */,
+				69E480F8B5F1D4929EDA6F6C /* CleanupCategory.swift in Sources */,
+				0BED71C97F405A7A16DA19B3 /* CleanupCategoryRow.swift in Sources */,
+				F1E24E0C887ED9205398B3D4 /* CleanupItem.swift in Sources */,
+				C391085EA8A779EA7A4BC78D /* CleanupService.swift in Sources */,
+				FDE73B0601713B094B215C5B /* CleanupView.swift in Sources */,
+				9B07851DFB6398A64E52F992 /* CleanupViewModel.swift in Sources */,
+				07A778AF40ADB119E5A29994 /* ContentView.swift in Sources */,
+				AED9C6E6AF665B320D739AF9 /* DiskScannerService.swift in Sources */,
+				BEEA3EAEAD8C34F6B63DD23A /* DockerDetailView.swift in Sources */,
+				D0449263F44A950E19F9322C /* DockerResource.swift in Sources */,
+				24D7784B5443A9929F638934 /* DustBusterApp.swift in Sources */,
+				9DF9935A8FAF73FF80AE6C9C /* FileBrowserView.swift in Sources */,
+				9715602D350E330FDC4B74F6 /* FileRemoveList.swift in Sources */,
+				3A4175818582E426BC2DA5C5 /* FileSystemNode.swift in Sources */,
+				8F249B17AB846919D67A8241 /* LaunchAtLoginService.swift in Sources */,
+				193AD814DF1A56BF66A970B7 /* MenuBarStatusView.swift in Sources */,
+				B462EABEF886BC003667062D /* SettingsView.swift in Sources */,
+				84C1E2FC78A5D3FD5651205E /* SidebarView.swift in Sources */,
+				754BAD0DB67E60069EC449F4 /* SpaceLensView.swift in Sources */,
+				8F2ADE07E99746D3A38521A6 /* SpaceLensViewModel.swift in Sources */,
+				98D44A584C605235D54A3FA2 /* TreemapView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0729A128D960A6C41AA0FFBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DustBuster/DustBuster.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = DustBuster/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.max.dustbuster;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.9;
+			};
+			name = Release;
+		};
+		7FDA63B37E5259004A229103 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		953F432093C08FA4E5DA271B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B2B66CF66299DECE8AE907A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DustBuster/DustBuster.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = DustBuster/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.max.dustbuster;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		83DC3D61AF759D11E2B19626 /* Build configuration list for PBXNativeTarget "DustBuster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2B66CF66299DECE8AE907A9 /* Debug */,
+				0729A128D960A6C41AA0FFBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9727F2A40F1DCCF111520F7C /* Build configuration list for PBXProject "DustBuster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				953F432093C08FA4E5DA271B /* Debug */,
+				7FDA63B37E5259004A229103 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9534BF2F82602EEC9609F43C /* Project object */;
+}

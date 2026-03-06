@@ -2,14 +2,14 @@ import SwiftUI
 import ServiceManagement
 
 @main
-struct CleanMyMachineApp: App {
+struct DustBusterApp: App {
     @NSApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
 
     @State private var cleanupViewModel = CleanupViewModel()
     @State private var spaceLensViewModel = SpaceLensViewModel()
 
     var body: some Scene {
-        WindowGroup("CleanMyMachine") {
+        WindowGroup("DustBuster") {
             ContentView()
                 .environment(cleanupViewModel)
                 .environment(spaceLensViewModel)
@@ -26,7 +26,7 @@ struct CleanMyMachineApp: App {
             }
         }
 
-        MenuBarExtra("CleanMyMachine", systemImage: "sparkles") {
+        MenuBarExtra("DustBuster", systemImage: "sparkles") {
             MenuBarStatusView()
                 .environment(cleanupViewModel)
         }
