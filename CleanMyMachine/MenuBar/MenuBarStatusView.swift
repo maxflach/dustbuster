@@ -49,6 +49,17 @@ struct MenuBarStatusView: View {
                 }
                 .buttonStyle(.bordered)
                 .controlSize(.regular)
+
+                Divider()
+
+                Button {
+                    NSApp.terminate(nil)
+                } label: {
+                    Label("Quit CleanMyMachine", systemImage: "power")
+                        .frame(maxWidth: .infinity)
+                }
+                .buttonStyle(.bordered)
+                .controlSize(.regular)
             }
             .padding(.horizontal, 16)
             .padding(.vertical, 12)
