@@ -1,0 +1,29 @@
+name: CleanMyMachine
+
+options:
+  bundleIdPrefix: com.max
+  deploymentTarget:
+    macOS: "14.0"
+  xcodeVersion: "15.0"
+
+targets:
+  CleanMyMachine:
+    type: application
+    platform: macOS
+    deploymentTarget: "14.0"
+    sources:
+      - CleanMyMachine
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.max.cleanmymachine
+        SWIFT_VERSION: "5.9"
+        MACOSX_DEPLOYMENT_TARGET: "14.0"
+        CODE_SIGN_ENTITLEMENTS: CleanMyMachine/CleanMyMachine.entitlements
+        INFOPLIST_FILE: CleanMyMachine/Info.plist
+        ENABLE_APP_SANDBOX: NO
+        CODE_SIGN_STYLE: Automatic
+        DEVELOPMENT_TEAM: ""
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        LD_RUNPATH_SEARCH_PATHS: "$(inherited) @executable_path/../Frameworks"
+        SWIFT_EMIT_LOC_STRINGS: YES
+        ENABLE_HARDENED_RUNTIME: YES

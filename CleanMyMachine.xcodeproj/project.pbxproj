@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03B0CFFBD919B28EE7A4667C /* DiskScannerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDD3ECAB55CFC5DCDCCDBB6 /* DiskScannerService.swift */; };
+		051175EBF45434406DEB146A /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9203CDD132FB67F800BFEF2F /* SettingsView.swift */; };
+		0575E42B7C9EA47B8EE879F2 /* SpaceLensView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19E9C2B4EBA7B3873ED5541 /* SpaceLensView.swift */; };
+		2FA76A417AD0FEDE9F6076E7 /* CleanupCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420AD8911D0236232BA9BFAD /* CleanupCategory.swift */; };
+		362B4A3DF08013A2BFFE58F1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76846A164CCD050DE21790D /* ContentView.swift */; };
+		4634911F2723B6F225E00281 /* TreemapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E97485B9C232CD5A85FDC1 /* TreemapView.swift */; };
+		477FA9DA54CC9EA3AF0D1419 /* CleanupItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDD16FD976350D8290416C2 /* CleanupItem.swift */; };
+		551BF00134515793EFC52F79 /* FileBrowserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DBBA867091D3BFBF9E9276 /* FileBrowserView.swift */; };
+		58295953E301E0EBD6188960 /* FileSystemNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE62BA4F83351E752D28FBF /* FileSystemNode.swift */; };
+		5A7E26DFB458D3CAA9FF03E9 /* CleanupService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9178400BEF6D952C90A24CAD /* CleanupService.swift */; };
+		6EF52B75633ADA4C3C6CACEF /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7F5A893ECE1B0048ECB11C /* SidebarView.swift */; };
+		7A521EFB0A4AFCF179BB81DF /* CleanMyMachineApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43C1271998BF93D68107309 /* CleanMyMachineApp.swift */; };
+		851A96E5B629940346E7C006 /* DockerDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA5D748C824872EA69EEDA1 /* DockerDetailView.swift */; };
+		88D72DD280DB03710848D79B /* SpaceLensViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944A9562AB489D63A9B19DDE /* SpaceLensViewModel.swift */; };
+		A9E4B12966734D1C7B6EC9F9 /* MenuBarStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1417A086A0EB268509565B /* MenuBarStatusView.swift */; };
+		BF13BAF405D46CD8FA6F8120 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6081AF2A5D740DC9BF23BC24 /* AppDelegate.swift */; };
+		BF3B5691BE7CC49F356FF100 /* DockerResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7B2C547BAB2C51C274827D /* DockerResource.swift */; };
+		DBA3FB6B2C15CDF6388FAB8D /* BubbleChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A1D63112B539D5B62B09DB /* BubbleChartView.swift */; };
+		DC932DAC1F449EF3357A44D2 /* FileRemoveList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77C1E14E9BF143220319A98 /* FileRemoveList.swift */; };
+		E4824B6021DF9966E2584058 /* CleanupCategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D028BA9E35EDCBD15C78B80 /* CleanupCategoryRow.swift */; };
+		E72CA59261E3A5D9736669E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 654F867031B027D4EECBBE40 /* Assets.xcassets */; };
+		F239BEC3E9FEC1BCBEE2E1ED /* CleanupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD93535524090CC808A6609A /* CleanupView.swift */; };
+		F8CE46324A42B772B64C7D87 /* CleanupViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B9C6C0BA663B60D7CC3B26 /* CleanupViewModel.swift */; };
+		F9901FF83F5894A49E312280 /* LaunchAtLoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69171497C94649BE77A6E084 /* LaunchAtLoginService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2BDD16FD976350D8290416C2 /* CleanupItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanupItem.swift; sourceTree = "<group>"; };
+		3D028BA9E35EDCBD15C78B80 /* CleanupCategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanupCategoryRow.swift; sourceTree = "<group>"; };
+		420AD8911D0236232BA9BFAD /* CleanupCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanupCategory.swift; sourceTree = "<group>"; };
+		6081AF2A5D740DC9BF23BC24 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		654F867031B027D4EECBBE40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		69171497C94649BE77A6E084 /* LaunchAtLoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchAtLoginService.swift; sourceTree = "<group>"; };
+		7CA5D748C824872EA69EEDA1 /* DockerDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DockerDetailView.swift; sourceTree = "<group>"; };
+		80E97485B9C232CD5A85FDC1 /* TreemapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreemapView.swift; sourceTree = "<group>"; };
+		87A1D63112B539D5B62B09DB /* BubbleChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleChartView.swift; sourceTree = "<group>"; };
+		8EDD3ECAB55CFC5DCDCCDBB6 /* DiskScannerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiskScannerService.swift; sourceTree = "<group>"; };
+		9178400BEF6D952C90A24CAD /* CleanupService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanupService.swift; sourceTree = "<group>"; };
+		9203CDD132FB67F800BFEF2F /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		944A9562AB489D63A9B19DDE /* SpaceLensViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceLensViewModel.swift; sourceTree = "<group>"; };
+		95DBBA867091D3BFBF9E9276 /* FileBrowserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileBrowserView.swift; sourceTree = "<group>"; };
+		995761B8575D9B2856B5F05B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		9B151B519809CE1662C4AFAC /* CleanMyMachine.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CleanMyMachine.entitlements; sourceTree = "<group>"; };
+		AB7F5A893ECE1B0048ECB11C /* SidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
+		AC1417A086A0EB268509565B /* MenuBarStatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarStatusView.swift; sourceTree = "<group>"; };
+		B43C1271998BF93D68107309 /* CleanMyMachineApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanMyMachineApp.swift; sourceTree = "<group>"; };
+		B76846A164CCD050DE21790D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B77C1E14E9BF143220319A98 /* FileRemoveList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileRemoveList.swift; sourceTree = "<group>"; };
+		BD93535524090CC808A6609A /* CleanupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanupView.swift; sourceTree = "<group>"; };
+		BEB8FCFCD53BC55B2E12EEBE /* CleanMyMachine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CleanMyMachine.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEE62BA4F83351E752D28FBF /* FileSystemNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileSystemNode.swift; sourceTree = "<group>"; };
+		C19E9C2B4EBA7B3873ED5541 /* SpaceLensView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceLensView.swift; sourceTree = "<group>"; };
+		E3B9C6C0BA663B60D7CC3B26 /* CleanupViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanupViewModel.swift; sourceTree = "<group>"; };
+		EF7B2C547BAB2C51C274827D /* DockerResource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DockerResource.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		2B7534A1DDE7B808BEC84B08 /* MenuBar */ = {
+			isa = PBXGroup;
+			children = (
+				AC1417A086A0EB268509565B /* MenuBarStatusView.swift */,
+			);
+			path = MenuBar;
+			sourceTree = "<group>";
+		};
+		41BF481FA4E47903F374686A /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				9178400BEF6D952C90A24CAD /* CleanupService.swift */,
+				8EDD3ECAB55CFC5DCDCCDBB6 /* DiskScannerService.swift */,
+				69171497C94649BE77A6E084 /* LaunchAtLoginService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		64EE5A4BB86DDE9BC660FF59 /* Cleanup */ = {
+			isa = PBXGroup;
+			children = (
+				3D028BA9E35EDCBD15C78B80 /* CleanupCategoryRow.swift */,
+				BD93535524090CC808A6609A /* CleanupView.swift */,
+				7CA5D748C824872EA69EEDA1 /* DockerDetailView.swift */,
+			);
+			path = Cleanup;
+			sourceTree = "<group>";
+		};
+		7566D6305418439F8060A569 /* Sidebar */ = {
+			isa = PBXGroup;
+			children = (
+				AB7F5A893ECE1B0048ECB11C /* SidebarView.swift */,
+			);
+			path = Sidebar;
+			sourceTree = "<group>";
+		};
+		76EC2B4A6490FB11FD078984 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				E3B9C6C0BA663B60D7CC3B26 /* CleanupViewModel.swift */,
+				944A9562AB489D63A9B19DDE /* SpaceLensViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		782EA899B2C5C707B0A02F58 = {
+			isa = PBXGroup;
+			children = (
+				80AC6AA775E3B48ADD7C89FB /* CleanMyMachine */,
+				E75E3EBB2AB558F6ECB0CD29 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		80AC6AA775E3B48ADD7C89FB /* CleanMyMachine */ = {
+			isa = PBXGroup;
+			children = (
+				6081AF2A5D740DC9BF23BC24 /* AppDelegate.swift */,
+				654F867031B027D4EECBBE40 /* Assets.xcassets */,
+				9B151B519809CE1662C4AFAC /* CleanMyMachine.entitlements */,
+				B43C1271998BF93D68107309 /* CleanMyMachineApp.swift */,
+				995761B8575D9B2856B5F05B /* Info.plist */,
+				2B7534A1DDE7B808BEC84B08 /* MenuBar */,
+				FC6F367503B0A1430F716DF5 /* Models */,
+				41BF481FA4E47903F374686A /* Services */,
+				76EC2B4A6490FB11FD078984 /* ViewModels */,
+				EC8722E46CDE4DE7BF9A78C7 /* Views */,
+			);
+			path = CleanMyMachine;
+			sourceTree = "<group>";
+		};
+		D0FD11B65B1A47668AC532AF /* SpaceLens */ = {
+			isa = PBXGroup;
+			children = (
+				87A1D63112B539D5B62B09DB /* BubbleChartView.swift */,
+				95DBBA867091D3BFBF9E9276 /* FileBrowserView.swift */,
+				B77C1E14E9BF143220319A98 /* FileRemoveList.swift */,
+				C19E9C2B4EBA7B3873ED5541 /* SpaceLensView.swift */,
+				80E97485B9C232CD5A85FDC1 /* TreemapView.swift */,
+			);
+			path = SpaceLens;
+			sourceTree = "<group>";
+		};
+		E75E3EBB2AB558F6ECB0CD29 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BEB8FCFCD53BC55B2E12EEBE /* CleanMyMachine.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC8722E46CDE4DE7BF9A78C7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B76846A164CCD050DE21790D /* ContentView.swift */,
+				9203CDD132FB67F800BFEF2F /* SettingsView.swift */,
+				64EE5A4BB86DDE9BC660FF59 /* Cleanup */,
+				7566D6305418439F8060A569 /* Sidebar */,
+				D0FD11B65B1A47668AC532AF /* SpaceLens */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FC6F367503B0A1430F716DF5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				420AD8911D0236232BA9BFAD /* CleanupCategory.swift */,
+				2BDD16FD976350D8290416C2 /* CleanupItem.swift */,
+				EF7B2C547BAB2C51C274827D /* DockerResource.swift */,
+				BEE62BA4F83351E752D28FBF /* FileSystemNode.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDA2AC10A1DB8469CAD828A4 /* CleanMyMachine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8CE88B0B15D74316BE9F4BA /* Build configuration list for PBXNativeTarget "CleanMyMachine" */;
+			buildPhases = (
+				6D3C6ADA27891D4A7F3648E9 /* Sources */,
+				B87110B1170F0AAE35FECB00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CleanMyMachine;
+			packageProductDependencies = (
+			);
+			productName = CleanMyMachine;
+			productReference = BEB8FCFCD53BC55B2E12EEBE /* CleanMyMachine.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A93E8B401BB8AE16D1D12CE2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					CDA2AC10A1DB8469CAD828A4 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DEDFB59E56E7532EA05F7CAB /* Build configuration list for PBXProject "CleanMyMachine" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 782EA899B2C5C707B0A02F58;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDA2AC10A1DB8469CAD828A4 /* CleanMyMachine */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B87110B1170F0AAE35FECB00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E72CA59261E3A5D9736669E9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6D3C6ADA27891D4A7F3648E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF13BAF405D46CD8FA6F8120 /* AppDelegate.swift in Sources */,
+				DBA3FB6B2C15CDF6388FAB8D /* BubbleChartView.swift in Sources */,
+				7A521EFB0A4AFCF179BB81DF /* CleanMyMachineApp.swift in Sources */,
+				2FA76A417AD0FEDE9F6076E7 /* CleanupCategory.swift in Sources */,
+				E4824B6021DF9966E2584058 /* CleanupCategoryRow.swift in Sources */,
+				477FA9DA54CC9EA3AF0D1419 /* CleanupItem.swift in Sources */,
+				5A7E26DFB458D3CAA9FF03E9 /* CleanupService.swift in Sources */,
+				F239BEC3E9FEC1BCBEE2E1ED /* CleanupView.swift in Sources */,
+				F8CE46324A42B772B64C7D87 /* CleanupViewModel.swift in Sources */,
+				362B4A3DF08013A2BFFE58F1 /* ContentView.swift in Sources */,
+				03B0CFFBD919B28EE7A4667C /* DiskScannerService.swift in Sources */,
+				851A96E5B629940346E7C006 /* DockerDetailView.swift in Sources */,
+				BF3B5691BE7CC49F356FF100 /* DockerResource.swift in Sources */,
+				551BF00134515793EFC52F79 /* FileBrowserView.swift in Sources */,
+				DC932DAC1F449EF3357A44D2 /* FileRemoveList.swift in Sources */,
+				58295953E301E0EBD6188960 /* FileSystemNode.swift in Sources */,
+				F9901FF83F5894A49E312280 /* LaunchAtLoginService.swift in Sources */,
+				A9E4B12966734D1C7B6EC9F9 /* MenuBarStatusView.swift in Sources */,
+				051175EBF45434406DEB146A /* SettingsView.swift in Sources */,
+				6EF52B75633ADA4C3C6CACEF /* SidebarView.swift in Sources */,
+				0575E42B7C9EA47B8EE879F2 /* SpaceLensView.swift in Sources */,
+				88D72DD280DB03710848D79B /* SpaceLensViewModel.swift in Sources */,
+				4634911F2723B6F225E00281 /* TreemapView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1F0115D92CF13BFAF3E3B0FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CleanMyMachine/CleanMyMachine.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = CleanMyMachine/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.max.cleanmymachine;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.9;
+			};
+			name = Release;
+		};
+		7B4E00A0F304D404ED46B2C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		9EEEB0716F9B09530D21A2F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CleanMyMachine/CleanMyMachine.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = CleanMyMachine/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.max.cleanmymachine;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+		AE1E82480F3E96B5847DCF62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B8CE88B0B15D74316BE9F4BA /* Build configuration list for PBXNativeTarget "CleanMyMachine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EEEB0716F9B09530D21A2F6 /* Debug */,
+				1F0115D92CF13BFAF3E3B0FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		DEDFB59E56E7532EA05F7CAB /* Build configuration list for PBXProject "CleanMyMachine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B4E00A0F304D404ED46B2C2 /* Debug */,
+				AE1E82480F3E96B5847DCF62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A93E8B401BB8AE16D1D12CE2 /* Project object */;
+}
