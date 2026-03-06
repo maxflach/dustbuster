@@ -1,6 +1,6 @@
 # DustBuster
 
-A native macOS 14+ app inspired by CleanMyMac, built with Swift/SwiftUI.
+A native macOS 14+ disk cleanup utility built with Swift/SwiftUI.
 
 ## Features
 
